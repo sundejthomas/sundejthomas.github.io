@@ -100,7 +100,9 @@ nav{
 .adobeid{
     color:#795355;
     float:center; 
-    text-align: center;  
+    text-align: center; 
+    font-weight: medium;
+    font-size: 28px; 
 }
 .whitetext{
     font-family: sans-serif;
@@ -124,6 +126,7 @@ nav{
     font-size: 12pt;
     color:#F6D755;
     font-weight: lighter;
+    margin:8px;
 }
 
 #enhancepara{ 
@@ -157,8 +160,11 @@ nav{
 
 }
 .right-column{
-      width:250px; 
+    width:250px; 
     float:right; 
+}
+.special-features-pic {
+    width: 250px;
 }
 #formdiv{
     width: 990px;
@@ -169,34 +175,27 @@ nav{
 }
 form{ 
     width: 700px;
-    padding-top:40px;
+    padding-top:20px;
     padding-bottom:40px;
     margin-left:140px;
     text-align: center;
 }
-
-#lastname{
-    float:right;
+.names{
+    width:350px;
+    height: 20px;
+    margin: 5px;
 }
-#firstname{
-    float:left;
-    margin: 40px;
-}
-#email{
-    width:400px;
-}
-#password{
-    width:400px;
-}
-#country{
-    width:400px;
+.typebox{
+    width: 350px;
+    height: 20px;
+    margin:5px;
 }
 button{
     float:center;
     background-color: #006172;
 }
 #buysomemore{ 
-   padding:40px;
+    padding:40px;
     background-color: #795355;
 }
 .left-box{
@@ -206,8 +205,8 @@ button{
 }
 .center-box{
     width:250px;
+    margin-left: 80px;
     text-align: center;
-    margin-left:200px;
     float:left;
 }
 .right-box{
@@ -217,6 +216,7 @@ button{
 }
 footer{ 
     padding:20px;
+   padding-left: 280px;
     background-color: #795355;
 }
 
