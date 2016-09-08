@@ -56,6 +56,7 @@ textarea {
     background-image: url("../images/sandbeach.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+
 }
 header{ 
     height: 550px;
@@ -79,8 +80,10 @@ nav{
 }
 #nav2{
     float: right;
-    margin-top: 40px; 
+    margin-top: 15px;
     font-weight: lighter;
+    margin-left: 43px;
+    margin-right: 40px;
 }
 .orangetext{
     font-family: sans-serif;
@@ -157,30 +160,36 @@ nav{
       width:250px; 
     float:right; 
 }
-
-form{ 
+#formdiv{
     width: 990px;
     margin:0 auto;
+    background-image:url("../images/sandandrocks.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+form{ 
+    width: 700px;
     padding-top:40px;
-    padding-bottom: 40px;
+    padding-bottom:40px;
+    margin-left:140px;
     text-align: center;
-    background-color: #F39C72;
 }
 
-.lastname{
+#lastname{
     float:right;
 }
-.firstname{
+#firstname{
     float:left;
+    margin: 40px;
 }
-.email{
-    width:200px;
+#email{
+    width:400px;
 }
-.password{
-    width:200px;
+#password{
+    width:400px;
 }
-.country{
-    width:200px;
+#country{
+    width:400px;
 }
 button{
     float:center;
@@ -198,7 +207,8 @@ button{
 .center-box{
     width:250px;
     text-align: center;
-    float:center;
+    margin-left:200px;
+    float:left;
 }
 .right-box{
     width:250px;
