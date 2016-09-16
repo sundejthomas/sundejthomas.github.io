@@ -1,0 +1,326 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body{
+    background-color: black;
+    background-image: url("black-white.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#wrapper{
+    width: 990px;
+    margin:0 auto;
+    }
+
+ }
+ div{
+    display:block;
+ }
+
+.box{
+    height: 110px;
+    width: 110px;
+    animation-name: lefttoright, rainbow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 20, 20;
+    animation-direction: alternate, normal;
+    animation-fill-mode: backwards;  
+    border-radius: 50px; 
+}
+.boxes{
+    height: 110px;
+    width: 110px;
+    animation-name: righttoleft, rainbow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 20, 20;
+    animation-direction: alternate, normal;
+    animation-fill-mode: backwards;
+    border-radius: 55px; 
+}
+@keyframes righttoleft{
+    0% {
+    transform: translate(55px, 0);
+    }
+    50% {
+    border-radius: 0;
+    }
+    100% {
+    transform: translate(-55px, 0);
+    }   
+}
+@keyframes lefttoright{
+    0% {
+    transform: translate(-55px, 0);
+    }
+    50% {
+    border-radius: 0;
+    }
+    100% {
+    transform: translate(55px, 0);
+    }
+}
+@keyframes rainbow{
+    0% {
+    background: #000000;
+    }
+
+    11% {
+    background: #ff0000;
+    }
+    22% {
+    background: #ff9900;
+    }
+    33% {
+    background: #ffff00;
+    }
+    44% {
+    background: #00ff33;
+    }
+    55% {
+    background: #00ffff;
+    }
+    66% {
+    background: #0000ff;
+    }
+    77% {
+    background: #ff00ff;
+    }
+    88% {
+    background: #662382;
+    }
+    100% {
+    background: #ffffff;
+    }
+}
+#box1{
+    padding: 50px;
+    float:left;
+}
+#box2{
+    padding: 50px;
+    float: left;
+}
+#box3{
+    padding: 50px;
+    float: right;
+}
+#box4{
+    padding: 50px;
+    float: right;
+}
+#box5{
+    padding: 50px;
+    float: right;
+}
+.blackbox{
+    height: 110px;
+    width: 110px;
+    color:white;
+    animation-name: lefttoright;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 12;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;  
+}
+.blackboxes{
+    height: 110px;
+    width: 110px;
+    color:white;
+    animation-name: righttoleft;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 12;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;  
+}
+#blackbox1{
+    padding: 50px;
+    float:left;
+}
+#blackbox2{
+    padding: 50px;
+    float: left;
+}
+#blackbox3{
+    padding: 50px;
+    float: right;
+}
+#blackbox4{
+    padding: 50px;
+    float: right;
+}
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
