@@ -21,41 +21,71 @@
                 padding: 0;
                 position: relative;
                 width: 300px;
+                animation-name: backgroundcolor;
+                animation-duration: 20s;
+                animation-iteration-count:1;
+                animation-fill-mode: both;
+                animation-delay: 5s;
             }
 
             /*
              * Ryan's sample banner ad styles
              */
-            .ball {
-                background: #0CF;
-                border-radius: 50%;
-                height: 50px;
-                width: 50px;
+            .handcoffee {
+                background-image: url(handwithcoffee.png);
+                height: 100px;
                 position: absolute;
-                animation-name: move, color;
-                animation-duration: 2s, 1s;
+                transform: move1;
+                animation-duration: 2s;
                 animation-iteration-count:infinite;
             }
-            @keyframes move {
+            @keyframes move1 {
                 0% {
-                    top: calc(0% - 25px);
-                    left: calc(0% - 25px);
+                    transform: translateX(-300,0);
                 }
-                40% {
-                    top: calc(100% - 25px);
-                    left: calc(100% - 25px);
+                20% {
+                    transform: translateX(150,0);
                 }
-                50% {
-                    top: calc(0% - 25px);
-                    left: calc(100% - 25px);
-                }
-                90% {
-                    top: calc(100% - 25px);
-                    left: calc(0% - 25px);
+                80% {
+                    transform: translateX(150,0);
                 }
                 100% {
-                    top: calc(0% - 25px);
-                    left: calc(0% - 25px);
+                     transform: translateX(-300,0);
+                }
+            }
+            @keyframes backgroundcolor{
+                0%{
+                    background:#8BCED4;
+                }
+                17%{
+                    background:#8BCED4;
+                }
+                20%{
+                    background:#3A1337;
+                }
+                37%{
+                    background:#3A1337;
+                }
+                40%{
+                    background:#89BD23;
+                }
+                57%{
+                    background:#89BD23;
+                }
+                60%{
+                    background:#4A4A99;
+                }
+                77%{
+                    background:#4A4A99;
+                }
+                80%{
+                    background:#F18A57;
+                }
+                971%{
+                    background:#F18A57;
+                }
+                100%{
+                    background:#24366F;
                 }
             }
             @keyframes color {
@@ -71,7 +101,7 @@
     <body>
         <a href="#" id="medium-rectangle">
             <!--markup for banner goes below-->
-            <div class="ball"></div>
+            <div class="handcoffee"></div>
             <!--markup for banner goes above-->
         </div>
     </body>
