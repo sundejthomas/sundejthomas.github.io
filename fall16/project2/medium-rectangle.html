@@ -25,32 +25,60 @@
                 animation-duration: 20s;
                 animation-iteration-count:1;
                 animation-fill-mode: both;
-                animation-delay: 5s;
+                animation-delay: 2s;
             }
 
             /*
              * Ryan's sample banner ad styles
              */
             .handcoffee {
-                background-image: url(handwithcoffee.png);
                 height: 100px;
+                padding: 10px;
                 position: absolute;
-                transform: move1;
-                animation-duration: 2s;
-                animation-iteration-count:infinite;
+                animation-name: handcoffeemove;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
             }
-            @keyframes move1 {
+            .handcoffee > img {
+                height: 100%;
+            }
+            @keyframes handcoffeemove {
                 0% {
-                    transform: translateX(-300,0);
+                    transform: translate(-250px,0);
+                    opacity: 100%;
                 }
                 20% {
-                    transform: translateX(150,0);
+                    transform: translate(150px,0);
+                    opacity: 100%;
                 }
                 80% {
-                    transform: translateX(150,0);
+                    transform: translate(150px,0);
+                    opacity: 100%;
                 }
                 100% {
-                     transform: translateX(-300,0);
+                    transform: translate(-250px,0);
+                    opacity: 0%;
+                }
+
+            }
+            @keyframes buy-a-coffee{
+                0% {
+                    transform: translate(250px,0);
+                    opacity: 100%;
+                }
+                20% {
+                    transform: translate(-150px,0);
+                    opacity: 100%;
+                }
+                80% {
+                    transform: translate(-150px,0);
+                    opacity: 100%;
+                }
+                100% {
+                    transform: translate(250px,0);
+                    opacity: 0%;
                 }
             }
             @keyframes backgroundcolor{
@@ -81,19 +109,11 @@
                 80%{
                     background:#F18A57;
                 }
-                971%{
+                97%{
                     background:#F18A57;
                 }
                 100%{
                     background:#24366F;
-                }
-            }
-            @keyframes color {
-                0% {
-                    background:#0CF;
-                }
-                100% {
-                    background:#990;
                 }
             }
         </style>
@@ -101,7 +121,56 @@
     <body>
         <a href="#" id="medium-rectangle">
             <!--markup for banner goes below-->
-            <div class="handcoffee"></div>
+            <div id="scene1">
+                <div class="handcoffee"><img src="images/handwithcoffee.png"></div>
+                <div class="buy-a-coffee" id="moveleft1"> Buy a bag</div>
+            </div>
+    
+
+            <div id="scene2">
+                <div class="tree" id="moveup1">tree here</div>
+                <div class="gift-a-tree" id="moveup2"> Gift a tree</div>
+            </div>
+
+
+            <div id="scene3">
+                <div class="70cents" id="spin">.70¢</div>
+                <div class="every-bag" id="fadein"> Starbucks will contribute for EVERY BAG of coffee sold</div>
+                <div class="coindrop" id="movedown1">coins here</div>
+            </div>
+
+
+            <div id="scene4">
+                <div class="thats-enough" id="fadein2">That's enough for ONE coffee tree seedling</div>
+                <div class="sprout" id="moveup3"> sprout here</div>
+            </div>
+
+
+            <div id="scene5">
+                <div class="our-planet" id="moveleft2">Starbucks is doing thier part to save OUR PLANET...</div>
+                <div class="world" id="spinning-earth">earth here</div>
+            </div>
+
+
+            <div id="scene6">
+                <div class="donationpage" id="getlarger">hands here <button id="donatenow">Donate Now</button></div>
+                <div class="now-you" id="moveright2">...and now YOU can do yours</div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <!--markup for banner goes above-->
         </div>
     </body>
