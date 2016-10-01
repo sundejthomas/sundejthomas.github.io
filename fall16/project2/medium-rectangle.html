@@ -25,63 +25,12 @@
                 animation-duration: 20s;
                 animation-iteration-count:1;
                 animation-fill-mode: both;
-                animation-delay: 2s;
+                animation-delay: 1s
             }
-
             /*
              * Ryan's sample banner ad styles
              */
-            .handcoffee {
-                height: 100px;
-                padding: 10px;
-                position: absolute;
-                animation-name: handcoffeemove;
-                animation-duration: 4s;
-                animation-iteration-count:1;
-                animation-timing-function: ease-in-out;
-                animation-fill-mode: both;
-            }
-            .handcoffee > img {
-                height: 100%;
-            }
-            @keyframes handcoffeemove {
-                0% {
-                    transform: translate(-250px,0);
-                    opacity: 100%;
-                }
-                20% {
-                    transform: translate(150px,0);
-                    opacity: 100%;
-                }
-                80% {
-                    transform: translate(150px,0);
-                    opacity: 100%;
-                }
-                100% {
-                    transform: translate(-250px,0);
-                    opacity: 0%;
-                }
-
-            }
-            @keyframes buy-a-coffee{
-                0% {
-                    transform: translate(250px,0);
-                    opacity: 100%;
-                }
-                20% {
-                    transform: translate(-150px,0);
-                    opacity: 100%;
-                }
-                80% {
-                    transform: translate(-150px,0);
-                    opacity: 100%;
-                }
-                100% {
-                    transform: translate(250px,0);
-                    opacity: 0%;
-                }
-            }
-            @keyframes backgroundcolor{
+             @keyframes backgroundcolor{
                 0%{
                     background:#8BCED4;
                 }
@@ -116,47 +65,521 @@
                     background:#24366F;
                 }
             }
+            .handcoffee {
+                height: 140px;
+                padding: 10px;
+                margin-top: 75px;
+                position: absolute;
+                animation-name: handcoffeemove;
+                animation-duration: 3.3s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 1s;
+            }
+            .handcoffee > img {
+                height: 100%;
+            }
+            @keyframes handcoffeemove {
+                0% {
+                    transform: translate(-250px,0);
+                    opacity: 100;
+                }
+                10% {
+                    transform: translate(-50px,0);
+                    opacity: 100;
+                }
+                90% {
+                    transform: translate(-40px,0);
+                    opacity: 100;
+                }
+                100% {
+                    transform: translate(-250px,0);
+                    opacity: 0;
+                }
+            }
+            .buy-a-bag{
+                margin-top: 10px;
+                position: absolute;
+                animation-name: buy-a-bag;
+                animation-duration: 3.3s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 1s;
+            }
+            .buyabagtext > img {
+                height: 100%;
+            }
+            @keyframes buy-a-bag {
+                0% {
+                    transform: translate(350px,0);
+                    opacity: 100;
+                }
+                10% {
+                    transform: translate(0px,0);
+                    opacity: 100;
+                }
+                90% {
+                    transform: translate(-10px,0);
+                    opacity: 100;
+                }
+                100% {
+                    transform: translate(-250px,0);
+                    opacity: 0;
+                }
+            }
+            .tree{
+                height: 250px;
+                width: 300px;
+                margin-right: 200px;
+                position: absolute;
+                animation-name: tree;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 4.3s;
+            }
+            .tree > img{
+                height: 100%;
+            }
+            @keyframes tree {
+                0% {
+                    transform: translate(300px,0px);
+                    opacity:0;
+                }
+                5% {
+                    opacity: 100;
+                }
+                75% {
+                    transform: translate(110px,0px);
+                    transform: scale3d(20,20);
+                }
+                90% {
+                     opacity: 80;
+                }
+                100% {
+                    transform: translate(110px,0px);
+                    opacity: 0;
+                }
+            }
+            .gift-a-tree{
+                position: absolute;
+                animation-name: giftatree;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 4s;
+            }
+            .gift-a-tree > img{
+                height: 100%;
+            }
+            @keyframes giftatree{
+                0% {
+                    transform: translate(0px,-250px);
+                    opacity: 100;
+                }
+                10% {
+                    opacity: 100;
+                }
+                90% {
+                    transform: translate(0px,-8px);
+                    opacity: 80;
+                }
+                100% {
+                    transform: translate(0px,-8px);
+                    opacity: 0;
+                }
+            }
+            .starbuckstext1 {
+                position: absolute;
+                animation-name: fadeinfromleft;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 8.4s;
+            }
+            .starbuckstext1 > img{
+                height: 100%;
+            }
+            .willcontribute {
+                position: absolute;
+                animation-name: fadeinfromleft;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 8.5s;
+            }
+            .willcontribute > img{
+                height: 100%;
+            }
+            .cents {
+                position: absolute;
+                animation-name: flash;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 8.4s;
+            }
+            .cents > img{
+                height: 100%;
+            }
+            .for {
+                position: absolute;
+                animation-name: fadeinfromleft;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 8.4s;
+            }
+            .for > img{
+                height: 100%;
+            }
+            .everybag {
+                position: absolute;
+                animation-name: fadeinfromleft;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 8.5s;
+            }
+            .everybag > img{
+                height: 100%;
+            }
+            .ofcoffeesold {
+                position: absolute;
+                animation-name: fadeinfromleft;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 8.6s;
+            }
+            .ofcoffeesold > img{
+                height: 100%;
+            }
+            @keyframes flash{
+                0%{
+                    opacity: 0;
+                    }
+                10%{
+                    opacity: 100;
+                    }
+                15%{
+                    opacity:0;
+                    }
+                25%{
+                    opacity:100;
+                }
+                30%{
+                    opacity:0;
+                }
+                45%{
+                    opacity: 100;
+                }
+                50%{
+                    opacity: 0;
+                }
+                55%{
+                    opacity: 100;
+                }
+                90%{
+                    opacity: 100;
+                }
+                100%{opacity: 0;
+                }
+                }
+            @keyframes fadeinfromleft{
+                0% {
+                    transform: translate(-300px,0);
+                    opacity: 100;
+                }
+                10% {
+                    transform: translate(0px,0);
+                }
+                90% {
+                    transform: translate(0px,0);
+                    opacity: 100;
+                }
+                100% {
+                    transform: translate(-300px,0);
+                    opacity: 0;
+                }
+            }
+            .pileofcoins {
+                position: absolute;
+                animation-name: pileofcoins;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 8.4s;
+            }
+            .pileofcoins > img{
+                height: 100%;
+            }
+            @keyframes pileofcoins{
+                0%{
+                    opacity: 0;
+                    }
+                5%{
+                    opacity: 100;
+                    }
+                90%{
+                    opacity:100;
+                    }
+                100%{
+                    opacity:0;
+                }
+            }
+            .firstcoin {
+                position: absolute;
+                animation-name: firstcoin;
+                animation-duration: 3.9s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 8.5s;
+            }
+            .firstcoin > img{
+                height: 100%;
+            }
+            @keyframes firstcoin{
+                0% {
+                    transform: translate(0,-250px);
+                    opacity: 100;
+                }
+                35% {
+                    transform: translate(0,0);
+                    opacity: 100;
+                }
+                90%{
+                    transform: translate(0,0);
+                    opacity: 100;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+            .secondcoin {
+                width:30px;
+                position: absolute;
+                animation-name: secondcoin;
+                animation-duration: 3.8s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 8.6s;
+            }
+            .secondcoin > img{
+                height: 100%;
+            }
+            @keyframes secondcoin{
+                0% {
+                    transform: translate(0,-250px);
+                    opacity: 100;
+                }
+                35% {
+                    transform: translate(0,0);
+                    opacity: 100;
+                }
+                90%{
+                    transform: translate(0,0);
+                    opacity: 100;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+            .thirdcoin {
+                position: absolute;
+                animation-name: thirdcoin;
+                animation-duration: 3.7s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 8.7s;
+            }
+            .thirdcoin > img{
+                height: 100%;
+            }
+            @keyframes thirdcoin{
+                0% {
+                    transform: translate(0,-250px);
+                    opacity: 100;
+                }
+                35% {
+                    transform: translate(0,0);
+                    opacity: 100;
+                }
+                90%{
+                    transform: translate(0,0);
+                    opacity: 100;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+           .thatsenough {
+                position: absolute;
+                animation-name: thatsenough;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 12.5s;
+           }
+           .thatsenough > img{
+                height: 100%;
+            }
+            @keyframes thatsenough{
+                0% {
+                    transform: translate(-300px,5px);
+                    opacity: 100;
+                }
+                20% {
+                    transform: translate(-5px,0px);
+                    opacity: 100;
+                }
+                90%{
+                    transform: translate(5px,-5px);
+                    opacity: 100;
+                }
+                100% {
+                    transform: translate(300px,-5px);
+                    opacity: 0;
+                }
+            } 
+            .one {
+                position: absolute;
+                animation-name: one;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 12.5s;
+           }
+           .one > img{
+                height: 100%;
+            }
+            @keyframes one{
+                0% {
+                    transform: translate(-300px,5px);
+                    opacity: 100;
+                }
+                20% {
+                    transform: translate(-5px,0px);
+                    opacity: 100;
+                }
+                90%{
+                    transform: translate(5px,-5px);
+                    opacity: 100;
+                }
+                100% {
+                    transform: translate(300px,-10px);
+                    opacity: 0;
+                }
+            }
+            .sprout {
+                position: absolute;
+                animation-name: sprout;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 12.5s;
+           }
+           .sprout > img{
+                height: 100%;
+            }
+            @keyframes sprout{
+                0% {
+                    transform: translate(0,20px);
+                    opacity: 0;
+                }
+                10% {
+                    opacity: 100;
+                }
+                90%{
+                    transform: translate(0,0px);
+                    opacity: 100;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }  
+            .pot {
+                position: absolute;
+                animation-name: pot;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 12.5s;
+            }
+           .pot > img{
+                height: 100%;
+            }
+            @keyframes pot{
+                0% {
+                    opacity: 0;
+                }
+                10% {
+                    opacity: 100;
+                }
+                90%{
+                    opacity: 100;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }  
         </style>
     </head>
     <body>
         <a href="#" id="medium-rectangle">
             <!--markup for banner goes below-->
+
             <div id="scene1">
                 <div class="handcoffee"><img src="images/handwithcoffee.png"></div>
-                <div class="buy-a-coffee" id="moveleft1"> Buy a bag</div>
+                <div class="buy-a-bag"><img src="images/buyabagtext.svg"></div>
             </div>
     
 
             <div id="scene2">
-                <div class="tree" id="moveup1">tree here</div>
-                <div class="gift-a-tree" id="moveup2"> Gift a tree</div>
+                <div class="tree"><img src="images/tree.png"></div>
+                <div class="gift-a-tree"><img src="images/giftatree.svg"></div>
             </div>
 
 
             <div id="scene3">
-                <div class="70cents" id="spin">.70¢</div>
-                <div class="every-bag" id="fadein"> Starbucks will contribute for EVERY BAG of coffee sold</div>
-                <div class="coindrop" id="movedown1">coins here</div>
+                <div class="starbuckstext1" id="fadeinfromleft"> <img src="images/starbuckstext1.svg"> </div>
+                <div class="willcontribute" id="fadeinfromleft"> <img src="images/willcontribute.svg"> </div>
+                <div class="cents"> <img src="images/70cents.svg"> </div>
+                <div class="for" id="fadeinfromleft"> <img src="images/for.svg"></div>
+                <div class="everybag" id="fadeinfromleft"> <img src="images/everybag.svg"></div>
+                <div class="ofcoffeesold" id="fadeinfromleft"> <img src="images/ofcoffeesold.svg"></div>
+                <div class="pileofcoins"> <img src="images/pileofcoins.svg"> </div>
+                <div class="firstcoin"> <img src="images/firstcoin.svg"> </div>
+                <div class="secondcoin"> <img src="images/secondcoin.svg"> </div>
+                <div class="thirdcoin"> <img src="images/thirdcoin.svg"> </div>          
             </div>
-
 
             <div id="scene4">
-                <div class="thats-enough" id="fadein2">That's enough for ONE coffee tree seedling</div>
-                <div class="sprout" id="moveup3"> sprout here</div>
+                <div class="thatsenough"><img src="images/thatsenough.svg"></div>
+                <div class="one"><img src="images/one.svg"></div>
+                <div class="sprout"><img src="images/sprout.svg"></div>
+                <div class="pot"><img src="images/pot.svg"></div>
             </div>
 
-
-            <div id="scene5">
-                <div class="our-planet" id="moveleft2">Starbucks is doing thier part to save OUR PLANET...</div>
-                <div class="world" id="spinning-earth">earth here</div>
-            </div>
-
-
-            <div id="scene6">
-                <div class="donationpage" id="getlarger">hands here <button id="donatenow">Donate Now</button></div>
-                <div class="now-you" id="moveright2">...and now YOU can do yours</div>
-            </div>
-
+            
 
 
 
