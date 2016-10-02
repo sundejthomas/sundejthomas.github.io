@@ -154,10 +154,9 @@
                 }
                 75% {
                     transform: translate(110px,0px);
-                    transform: scale3d(20,20);
                 }
                 90% {
-                     opacity: 80;
+                    opacity: 80;
                 }
                 100% {
                     transform: translate(110px,0px);
@@ -218,6 +217,9 @@
                 height: 100%;
             }
             .cents {
+                height: 80px;
+                margin-top: 30px;
+                margin-left: 205px;
                 position: absolute;
                 animation-name: flash;
                 animation-duration: 4s;
@@ -272,23 +274,8 @@
                 10%{
                     opacity: 100;
                     }
-                15%{
-                    opacity:0;
-                    }
-                25%{
-                    opacity:100;
-                }
                 30%{
-                    opacity:0;
-                }
-                45%{
-                    opacity: 100;
-                }
-                50%{
-                    opacity: 0;
-                }
-                55%{
-                    opacity: 100;
+                    transform: rotateY(180deg);
                 }
                 90%{
                     opacity: 100;
@@ -540,7 +527,150 @@
                 100% {
                     opacity: 0;
                 }
+            } 
+            .our-planet {
+                position: absolute;
+                animation-name: our-planet;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 16.5s;
+            }
+           .our-planet > img{
+                height: 100%;
+            }
+            @keyframes our-planet{
+                0% {
+                    transform: translate(-5px,0);
+                    opacity: 0;
+                }
+                10% {
+                    opacity: 100;
+                }
+                90%{
+                    opacity: 100;
+                }
+                100% {
+                    transform: translate(-5px,0);
+                    opacity: 0;
+                }
+            } 
+            .globe {
+                background-color: #50C1F0;
+                border-radius: 50%;
+                height: 300px;
+                margin-top: 120px;
+                overflow: hidden;
+                width: 300px;
+                position: absolute;
+                animation-name: our-planet;
+                animation-duration: 4s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 16.5s;
+            }
+            .globe > img{
+                height: 100%;
+            }
+            .globeturn {
+                width: 1140px;
+                position: absolute;
+                animation-name: globeSpin;
+                animation-duration: 20s;
+                animation-iteration-count: 1; 
+                animation-timing-function: linear;
+                animation-delay: 16s;
+            }
+            .map {
+                float: left;
+                height: 200px;
+            }
+            @keyframes globeSpin {
+                0% {
+                    left: 0;
+                }
+                100% {
+                    left: -900px;
+                }
+            }
+            .twohands {
+                width: 20px;
+                position: absolute;
+                animation-name: twohands;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 20.5s;
+            }
+            .twohands > img {
+                height: 100%;
+            }
+            @keyframes twohands {
+                0% {
+                    transform: translate(0,-50px);
+                    opacity: 0;
+                }
+                10% {
+                    opacity: 100;
+                }
+                100%{
+                    transform: translate(0,0);
+                    opacity: 100;
+                }
             }  
+            .donatenow {
+                position: absolute;
+                animation-name: donatenow;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 20.5s;
+            }
+            .donatenow > img {
+                height: 100%;
+            }
+            @keyframes donatenow {
+                0% {
+                    transform: translate(0,-50px);
+                    opacity: 0;
+                }
+                10% {
+                    opacity: 100;
+                }
+                100%{
+                    transform: translate(0,0);
+                    opacity: 100;
+                }
+            }  
+            .nowyou {
+                position: absolute;
+                animation-name: nowyou;
+                animation-duration: 4s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 20.5s;
+            }
+           .nowyou > img{
+                height: 100%;
+            }
+            @keyframes nowyou{
+                0% {
+                    opacity: 0;
+                }
+                10% {
+                    opacity: 100;
+                }
+                100%{
+                    opacity: 100;
+                }
+            } 
+            button: hover{
+                transform: scaleX(10), scaleY(10), scaleZ(10);
+            }
         </style>
     </head>
     <body>
@@ -562,7 +692,7 @@
             <div id="scene3">
                 <div class="starbuckstext1" id="fadeinfromleft"> <img src="images/starbuckstext1.svg"> </div>
                 <div class="willcontribute" id="fadeinfromleft"> <img src="images/willcontribute.svg"> </div>
-                <div class="cents"> <img src="images/70cents.svg"> </div>
+                <div class="cents"> <img src="images/70cents.png"> </div>
                 <div class="for" id="fadeinfromleft"> <img src="images/for.svg"></div>
                 <div class="everybag" id="fadeinfromleft"> <img src="images/everybag.svg"></div>
                 <div class="ofcoffeesold" id="fadeinfromleft"> <img src="images/ofcoffeesold.svg"></div>
@@ -579,8 +709,21 @@
                 <div class="pot"><img src="images/pot.svg"></div>
             </div>
 
-            
+            <div id="scene5">
+                <div class="our-planet"><img src="images/doingourpart.svg"></div>
+                <div class="globe">    
+                    <div class="globeturn clearfix">
+                        <img src="images/worldmap.png" alt="map" class="map">
+                    </div>
+                </div>
+            </div>
 
+
+            <div id="scene6">
+                <div class="twohands"><img src="images/twohands.svg"></div>
+                <div class="donatenow" href="microhome.html"><img src="images/buttonimage.svg"></div>
+                <div class="nowyou"><img src="images/nowyou.svg"></div>
+            </div>
 
 
 
