@@ -274,8 +274,11 @@
                 10%{
                     opacity: 100;
                     }
-                30%{
-                    transform: rotateY(180deg);
+                20%{
+                    transform: rotateX(90deg);
+                }
+                35%{
+                    transform: rotateX(0deg);
                 }
                 90%{
                     opacity: 100;
@@ -671,11 +674,33 @@
             button: hover{
                 transform: scaleX(10), scaleY(10), scaleZ(10);
             }
+            .watermark{
+                position:relative;
+                z-index:3;
+                animation-name: watermark;
+                animation-duration: 3.3s;
+                animation-iteration-count:1;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: both;
+                animation-delay: 1s;
+            }
+            .watermark > img {
+                height: 100%;
+            }
+            @keyframes watermark{
+                0%{
+                    opacity:100;
+                }
+                100%{
+                    opacity:100;
+                }
+            }
         </style>
     </head>
     <body>
         <a href="#" id="medium-rectangle">
             <!--markup for banner goes below-->
+
 
             <div id="scene1">
                 <div class="handcoffee"><img src="images/handwithcoffee.png"></div>
@@ -725,6 +750,7 @@
                 <div class="nowyou"><img src="images/nowyou.svg"></div>
             </div>
 
+            <div class="watermark"><img src="images/watermark.svg"></div>
 
 
 
