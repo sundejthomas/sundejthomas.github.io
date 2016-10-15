@@ -951,9 +951,35 @@ textarea {
 
 
 
+.row {
+    font-size: 1rem;
+    text-align: left;
+    border: 3px solid purple;
+    padding: 5px;
+    margin-bottom: 4em;
+}
+.row > div {
+    border: 1px solid blue;
+}
+.text {
+    font-size: 1.5em;
+    background: lightgreen;
+    padding: 15px;
+}
 
-
-
+@media (min-width: 544px) {
+    .col-xs-left{
+       float: left;
+        width: 25%;
+    }
+    .col-xs-right{
+      float:right;
+      width: 45%;
+    }
+    .col-xs-left{
+      float:none;
+      width:30%;
+    }
 
 
 
