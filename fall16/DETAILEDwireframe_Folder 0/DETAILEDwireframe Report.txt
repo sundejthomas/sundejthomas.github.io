@@ -1,0 +1,148 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: DETAILEDwireframe.ai
+Color Mode: CMYK color
+Color Profile: U.S. Web Coated (SWOP) v2
+Ruler Units: points
+Artboard Dimensions: 1280 pt x 1024 pt
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Avenir Roman (TrueType)
+Coming Soon (TrueType)
+Myriad Pro (OTF)
+Rockwell (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Users/thomass1/Desktop/coffee stuff/Coffee Pics/Chiapas_Mexico_New_(5).JPG
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 11250K, 2400 by 1600 pixels
+Dimensions: 1278.996 by 852.664 points 
+Resolution: 135.106 by 135.106 pixels per inch
+
+
+/Users/thomass1/Desktop/coffee stuff/Coffee Pics/Chiapas_Mexico_New_(4).JPG
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 11250K, 2400 by 1600 pixels
+Dimensions: 766.56 by 511.04 points 
+Resolution: 225.423 by 225.423 pixels per inch
+
+
+/Users/thomass1/Desktop/coffee stuff/Coffee Pics/Chiapas_Mexico_New_(3).JPG
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 11250K, 2400 by 1600 pixels
+Dimensions: 766.559 by 853.332 points 
+Resolution: 225.423 by 135 pixels per inch
+
+
+/Users/thomass1/Desktop/coffee stuff/Coffee Pics/Chiapas_Mexico_2016_(6).JPG
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 64800K, 5760 by 3840 pixels
+Dimensions: 1301.04 by 873.12 points 
+Resolution: 318.76 by 316.658 pixels per inch
+
+
+/Users/thomass1/Desktop/coffee stuff/Coffee Pics/-357081fda4fa8077.JPG
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 1800K, 960 by 640 pixels
+Dimensions: 960 by 640 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/thomass1/Desktop/coffee stuff/Coffee Pics/-d3ef7de0c4748ead.JPG
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 2049K, 683 by 1024 pixels
+Dimensions: 390.405 by 585.321 points 
+Resolution: 125.962 by 125.962 pixels per inch
+
+
+/Users/thomass1/Desktop/coffee stuff/Coffee Pics/-8dbdd9bc947564ef.JPG
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 2049K, 683 by 1024 pixels
+Dimensions: 390.405 by 585.321 points 
+Resolution: 125.962 by 125.962 pixels per inch
+
+
+/Users/thomass1/Desktop/coffee stuff/Coffee Pics/-4dfaa202a282d479.JPG
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 2049K, 683 by 1024 pixels
+Dimensions: 390.405 by 585.321 points 
+Resolution: 125.962 by 125.962 pixels per inch
+
+
+/Users/thomass1/Desktop/coffee stuff/Coffee Pics/Chiapas_Mexico_2016_(6).JPG
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 64800K, 5760 by 3840 pixels
+Dimensions: 2177.239 by 1451.492 points 
+Resolution: 190.48 by 190.48 pixels per inch
+
+
+/Users/thomass1/Desktop/coffee stuff/Coffee Pics/Chiapas_Mexico_New_(1).JPG
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 11250K, 2400 by 1600 pixels
+Dimensions: 1291.758 by 870.025 points 
+Resolution: 133.771 by 132.41 pixels per inch
+
+
+/Users/thomass1/Desktop/coffee stuff/Coffee Pics/JjPjKLfk-2027-2992.JPG
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 508K, 469 by 370 pixels
+Dimensions: 469 by 370 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/thomass1/Desktop/coffee stuff/Coffee Pics/10M_Trees_-_Chiapas_(5).JPG
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 23922K, 3500 by 2333 pixels
+Dimensions: 469 by 335.133 points 
+Resolution: 537.313 by 501.222 pixels per inch
