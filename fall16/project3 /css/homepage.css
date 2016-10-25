@@ -1,0 +1,41 @@
+.openingheader{
+	height: 250px;
+}
+
+.StarbucksOutreach{
+	color: #7CCCD0;
+	font-family: rockwell;
+	font-size: 40pt;
+	margin-top: 130px;
+	margin-bottom:0px;
+}
+.nav1{
+	height:250px;
+	color: #7CCCD0;
+}
+a{
+	font-family: Coming Soon;
+	font-size: 16pt;
+	padding:25px;
+	padding-top:30px;
+}
+.homepagesubtitle{
+	color: #7CCCD0;
+	font-family: rockwell;
+	font-size: 16pt;
+	padding-left: 40px;
+}
+.backgroundhomepage{
+	height:855px;
+	width:1280px;
+	background-image: url(../img/familypic.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-attachment: fixed;
+}
+.homepagetitle{
+	color:white;
+	font-family: Coming Soon;
+	font-size: 20pt;
+	padding-left: 40px;
+}
