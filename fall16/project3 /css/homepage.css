@@ -1,41 +1,59 @@
-.openingheader{
-	height: 250px;
+#openingheader{
+	height: 110px;
+	padding-top:35px;
 }
 
-.StarbucksOutreach{
+.starbucksoutreach{
 	color: #7CCCD0;
 	font-family: rockwell;
 	font-size: 40pt;
-	margin-top: 130px;
-	margin-bottom:0px;
 }
-.nav1{
-	height:250px;
+#nav1{
+	height:50px;
 	color: #7CCCD0;
+	padding-top:30px;
+	padding-bottom:35px;
 }
 a{
 	font-family: Coming Soon;
-	font-size: 16pt;
+	font-size: 14pt;
 	padding:25px;
-	padding-top:30px;
+	color:#330F36;
 }
 .homepagesubtitle{
 	color: #7CCCD0;
 	font-family: rockwell;
-	font-size: 16pt;
+	font-size: 14pt;
 	padding-left: 40px;
 }
 .backgroundhomepage{
-	height:855px;
-	width:1280px;
+	height:600px;
 	background-image: url(../img/familypic.jpg);
 	background-repeat: no-repeat;
 	background-size:100%;
-	background-attachment: fixed;
+	padding-top:30px;
 }
 .homepagetitle{
-	color:white;
+	color: white;
 	font-family: Coming Soon;
-	font-size: 20pt;
+	font-size: 33pt;
 	padding-left: 40px;
+}
+.footer{
+	height:40px;
+	color: #7CCCD0;
+	padding-bottom:15px;
+	font-family: Coming Soon;
+	font-size: 12pt;
+	color:#330F36;
+	margin-top:30px;
+}
+.socialmedia{
+	width:100px;
+	background-image: url(../img/socialmedia.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	margin-left: 60px;
+	padding-top:30px;
+	position: absolute;
 }
