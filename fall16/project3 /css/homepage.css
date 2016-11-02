@@ -12,18 +12,12 @@
 	font-size: 40pt;
 }
 
-.watermark{
-	width:150px;
-	background-image: url(../img/watermark.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	position: absolute;
-	margin-left: 30px;
-	padding-top: 0px;
-}
 @media screen and (max-width: 767px) {
+	#openingheader{
+		padding-top:13px;
+	}
 	.starbucksoutreach{
-		font-size: 20pt;
+		font-size: 30pt;
 	}
 	.starbucksoutreach > span {
 		display: block;
@@ -38,17 +32,21 @@
 	background:#7CCCD0
 }
 #nav1{
-	height:50px;
 	color: #7CCCD0;
-	padding-top:30px;
-	padding-bottom:35px;
+	padding:10px;
 }
 #nav1 a {
 	font-family: Coming Soon;
 	font-size: 14pt;
-	padding:25px;
+	padding-left:25px;
 	color:#330F36;
 	text-decoration: none;
+}
+.homepagetitle{
+	color: white;
+	font-family: Coming Soon;
+	font-size: 33pt;
+	padding-left: 40px;
 }
 .homepagesubtitle{
 	color: #7CCCD0;
@@ -63,28 +61,40 @@
 	background-size: cover;
 	background-position: center center;
 	padding-top: 30px;
+	padding-left:10px;
 }
-.homepagetitle{
-	color: white;
-	font-family: Coming Soon;
-	font-size: 33pt;
-	padding-left: 40px;
-}
+
 .footer{
-	height:40px;
+	padding-top: 25px;
+}
+.footer2{
 	color: #7CCCD0;
-	padding-bottom:15px;
+	padding-top: 10px;
+	padding-bottom:25px;
 	font-family: Coming Soon;
 	font-size: 12pt;
 	color:#330F36;
-	margin-top:30px;
 }
-.socialmedia{
-	width:100px;
-	background-image: url(../img/socialmedia.png);
-	background-repeat: no-repeat;
-	background-size:100%;
-	margin-left: 60px;
-	padding-top:30px;
-	position: absolute;
+@media screen and (max-width: 767px) {
+	#nav1 a{
+		font-size: 12pt;
+		padding:5px;
+		text-align: left;
+	}
+	.backgroundhomepage{
+		padding-top: 10px;
+		padding-left:0px;
+	}
+	.homepagetitle{
+		font-size: 20pt;
+		padding-left: 20px;
+	}
+	.homepagesubtitle{
+		font-size: 12pt;
+		padding-left: 20px;
+	}
+	.footer2{
+		font-size:10pt;
+	}
 }
+
