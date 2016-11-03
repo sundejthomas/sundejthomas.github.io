@@ -33,14 +33,14 @@
 }
 #nav1 a {
 	font-family: Coming Soon;
-	font-size: 16pt;
+	font-size: 15pt;
 	padding-left:25px;
 	color:#330F36;
 	text-decoration: none;
 }
 @media screen and (max-width: 767px) {
 	#nav1 a {
-		font-size: 16pt;
+		font-size: 13.5pt;
 	}
 }
 .homepagetitle{
@@ -70,16 +70,23 @@
 	font-size: 20pt;
 	font-weight: bold;
 }
-.bluedot{
+.bluedot {
+	list-style: none;
+	position: relative;
+}
+.bluedot:before {
+	content: '•';
 	color:#7CCCD0;
+	position: absolute;
+	left: -25px;
 }
 .million{
 	padding: 10px;
 }
-p{
+p, ul{
 	font-family: avenir;
 	color: black;
-	font-size: 16pt;
+	font-size: 14pt;
 }
 @media screen and (max-width: 767px) {
 	#orangeheadline{
@@ -96,7 +103,10 @@ p{
 }
 .numbers{
 	background-color: white;
-	padding: 10px;
+	/*padding: 10px;*/
+}
+.numbers {
+	position: relative;
 }
 .manandseeds{
 	padding-bottom: 66.796875%;
@@ -104,8 +114,20 @@ p{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	padding-top: 30px;
-	padding-left:10px;
+	width: 100%;
+	/*padding-top: 30px;
+	padding-left:10px;*/
+}
+@media screen and (min-width: 768px) {
+	.manandseeds{
+		padding-bottom: 0;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+}
+.numbers-content {
+	background: rgba(255,255,255,.8);
+	padding: 15px;
 }
 
 
@@ -127,6 +149,9 @@ p{
 
 .footer{
 	padding-top: 25px;
+}
+.socialmedia{
+	background-size: 50%;
 }
 .footer2{
 	color: #7CCCD0;
