@@ -92,7 +92,39 @@ p{
 .infographic{
 	padding-top: 30px;
 	background-size: cover;
+	padding-bottom: 30px;
 }
+.numbers{
+	background-color: white;
+	padding: 10px;
+}
+.manandseeds{
+	padding-bottom: 66.796875%;
+	background-image: url(../img/manandseeds.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 30px;
+	padding-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
 	padding-top: 25px;
 }
