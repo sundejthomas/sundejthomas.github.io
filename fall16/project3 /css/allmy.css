@@ -11,7 +11,7 @@
 	color: #7CCCD0;
 	font-family: rockwell;
 	font-weight: lighter;
-	font-size: 48pt;
+	font-size: 4em;
 	line-height: 40pt;
 }
 @media screen and (max-width: 767px) {
@@ -19,7 +19,7 @@
 		padding-top:26px;
 	}
 	.starbucksoutreach{
-		font-size: 34pt;
+		font-size: 2.75em;
 		line-height: 34pt;
 	}
 	.starbucksoutreach > span {
@@ -35,24 +35,24 @@
 }
 #nav1 a {
 	font-family: Coming Soon;
-	font-size: 15pt;
+	font-size: 1.3em;
 	color:#330F36;
 	text-decoration: none;
 }
 @media screen and (max-width: 767px) {
 	#nav1 a {
-		font-size: 12pt;
+		font-size: 1em;
 	}
 }
 .homepagetitle{
 	color: white;
 	font-family: Coming Soon;
-	font-size: 33pt;
+	font-size: 2.75em;
 }
 .homepagesubtitle{
 	color: #7CCCD0;
 	font-family: rockwell;
-	font-size: 20pt;
+	font-size: 1.6em;
 }
 .backgroundhomepage{
 	padding-bottom: 66.796875%;
@@ -67,10 +67,10 @@
 		padding-top: 10px;
 	}
 	.homepagetitle{
-		font-size: 18pt;
+		font-size: 1.5em;
 	}
 	.homepagesubtitle{
-		font-size: 12pt;
+		font-size: 1em;
 		font-weight: regular;
 	}
 }
@@ -81,7 +81,7 @@
 .orangeheadline{
 	font-family: rockwell;
 	color:#F15B2A;
-	font-size: 20pt;
+	font-size: 1.6em;
 	font-weight: bold;
 }
 .bluedot {
@@ -100,14 +100,14 @@
 p, ul{
 	font-family: avenir;
 	color: black;
-	font-size: 14pt;
+	font-size: 1.188em;
 }
 @media screen and (max-width: 767px) {
 	#orangeheadline{
-		font-size: 18pt;
+		font-size: 1.500em;
 	}
 	p{
-		font-size: 14pt;
+		font-size: 1.188em;
 	}
 }
 .infographic{
@@ -146,6 +146,12 @@ p, ul{
 
 /*what is happening to our trees? page*/
 
+
+@media screen and (max-width: 767px) {
+	.rustpics{
+		padding-bottom: 10px;
+	}
+}
 
 
 /* Responsive iframe for all types of media use 'iframe-responsive' */
@@ -198,12 +204,12 @@ p, ul{
 	padding-top: 10px;
 	padding-bottom:25px;
 	font-family: 'Coming Soon';
-	font-size: 12pt;
+	font-size: 1em;
 	color:#330F36;
 }
 @media screen and (max-width: 767px) {
 	.footer2{
-		font-size:10pt;
+		font-size:.813em;
 	}
 }
 
