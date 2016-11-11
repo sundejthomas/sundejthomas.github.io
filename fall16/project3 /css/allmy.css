@@ -179,9 +179,36 @@ p, ul{
 /*donate now page*/
 
 
+.backgroundform{
+	padding-bottom: 66.796875%;
+	background-image: url(../img/formpic1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 30px;
+}
+@media screen and (max-width: 767px) {
+	.backgroundform{
+		padding-top: 10px;
+	}
+}
 
+.formheadline {
+	font-family: rockwell;
+	font-weight: lighter;
+	font-size: 1em;
+	color: #F15B2A;
+}
 
+.label .input {
+	font-family: 'Coming Soon';
+	font-size: 1em;
+	color: #330E36;
+}
 
+.input {
+	width: 350px;
+}
 
 
 /*thank you page*/
