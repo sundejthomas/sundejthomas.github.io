@@ -16,7 +16,7 @@
 }
 @media screen and (max-width: 767px) {
 	#openingheader{
-		padding-top:26px;
+		padding-top:28px;
 	}
 	.starbucksoutreach{
 		font-size: 2.75em;
@@ -117,7 +117,6 @@ p, ul{
 }
 .numbers{
 	background-color: white;
-	/*padding: 10px;*/
 }
 .numbers {
 	position: relative;
@@ -129,8 +128,6 @@ p, ul{
 	background-size: cover;
 	background-position: center center;
 	width: 100%;
-	/*padding-top: 30px;
-	padding-left:10px;*/
 }
 @media screen and (min-width: 768px) {
 	.manandseeds{
@@ -188,7 +185,7 @@ p, ul{
 	padding-top: 30px;
 }
 @media screen and (max-width: 767px) {
-	.backgroundform{
+	.backgroundform {
 		padding-top: 10px;
 	}
 }
@@ -200,7 +197,7 @@ p, ul{
 	color: #F15B2A;
 }
 
-.label .input {
+.formtext .input {
 	font-family: 'Coming Soon';
 	font-size: 1em;
 	color: #330E36;
