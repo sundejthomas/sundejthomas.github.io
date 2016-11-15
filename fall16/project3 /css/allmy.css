@@ -36,9 +36,13 @@
 #nav1 a {
 	font-family: Coming Soon;
 	font-size: 1.3em;
-	color:#330F36;
+	color:white;
 	text-decoration: none;
 }
+a:hover{
+	color:green;
+}
+
 @media screen and (max-width: 767px) {
 	#nav1 a {
 		font-size: 1em;
@@ -115,6 +119,14 @@ p, ul{
 	background-size: cover;
 	padding-bottom: 30px;
 }
+@media screen and (min-width: 768px) {
+	.infographic {
+		float: right;
+		width: 50%;
+		margin-left: 15px;
+		margin-bottom: 15px;
+	}
+}
 .numbers{
 	background-color: white;
 }
@@ -138,7 +150,7 @@ p, ul{
 }
 .numbers-content {
 	background: rgba(255,255,255,.8);
-	padding: 15px;
+	padding: 25px;
 }
 
 /*what is happening to our trees? page*/
@@ -177,36 +189,93 @@ p, ul{
 
 
 .backgroundform{
-	padding-bottom: 66.796875%;
 	background-image: url(../img/formpic1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	padding-top: 30px;
 }
-@media screen and (max-width: 767px) {
-	.backgroundform {
-		padding-top: 10px;
-	}
+.label{
+	font-family: Coming Soon;
+	color:#330F36;
+	font-size:1em;
 }
-
+.orangeheadline {
+	font-family: rockwell;
+	font-size: 1.2em;
+	color:#F15B2A;
+}
 .formheadline {
 	font-family: rockwell;
 	font-weight: lighter;
-	font-size: 1em;
-	color: #F15B2A;
+	font-size: 1.3em;
+	color:#F15B2A;
 }
-
-.formtext .input {
-	font-family: 'Coming Soon';
+.formtext {
+	font-family: Coming Soon;
 	font-size: 1em;
 	color: #330E36;
 }
-
 .input {
-	width: 350px;
+	width: 100%;
+	font-family: Coming Soon;
+	font-size: 1em;
+	color: #330E36;
+	background-color:#7CCCD0;
 }
-
+.select {
+	font-family: Coming Soon;
+	width:100%;
+	font-size: 1em;
+	color: #330E36;
+	background-color: #7CCCD0;
+}
+.selectmonth {
+	font-family: Coming Soon;
+	font-size: 1em;
+	color: #330E36;
+	width: 45%;
+	background-color: #7CCCD0;
+}
+.selectyear {
+	font-family: Coming Soon;
+	font-size: 1em;
+	width: 50%;
+	color: #330E36;
+	margin-left: 10px;
+	background-color: #7CCCD0;
+}
+option {
+	font-family: rockwell;
+	color:#330F36;
+}
+.formback-content {
+	background: rgba(255,255,255,.8);
+	position: relative;
+	background-color: white;
+	padding: 40px;
+}
+@media screen and (max-width: 768px) {
+.formback-content {
+	padding: 25px;
+	}
+}
+@media screen and (max-width: 768px) {
+.orangeheadline {
+	font-size: 1em;
+	}
+}
+.submitbutton {
+	background-color: #7CCCD0;
+	width: 200px;
+	font-family: rockwell;
+	font-size: 1.2em;
+	color:#F15B2A;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+button:hover {
+	color:#330F36;
+}
 
 /*thank you page*/
 
