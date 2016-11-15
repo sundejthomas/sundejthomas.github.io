@@ -40,7 +40,7 @@
 	text-decoration: none;
 }
 a:hover{
-	color:green;
+	color:orange;
 }
 
 @media screen and (max-width: 767px) {
@@ -148,9 +148,9 @@ p, ul{
 		bottom: 0;
 	}
 }
-.numbers-content {
-	background: rgba(255,255,255,.8);
-	padding: 25px;
+	.numbers-content {
+		background: rgba(255,255,255,.8);
+		padding: 25px;
 }
 
 /*what is happening to our trees? page*/
