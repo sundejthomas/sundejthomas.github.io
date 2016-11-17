@@ -31,7 +31,7 @@
 }
 #nav1{
 	color: #7CCCD0;
-	padding:20px;
+	padding:0;
 }
 #nav1 a {
 	font-family: Coming Soon;
@@ -39,13 +39,22 @@
 	color:white;
 	text-decoration: none;
 }
-a:hover{
-	color:orange;
+.navspace{
+	padding-top: 40px;
 }
-
+#nav1 a:hover{
+	color:#330F36;
+}
+#nav1 img{
+	margin-left: 50px;
+}
 @media screen and (max-width: 767px) {
 	#nav1 a {
 		font-size: 1em;
+	}
+	#nav1 img{
+	margin-left: 0px;
+	padding-bottom: 10px;
 	}
 }
 .homepagetitle{
@@ -215,14 +224,18 @@ p, ul{
 	font-size: 1em;
 	color: #330E36;
 }
-.input {
+.forminputs {
+	border: 1.5px solid #ccc;
+	border-radius: 3px;
 	width: 100%;
 	font-family: Coming Soon;
+	border-radius: 1;
 	font-size: 1em;
 	color: #330E36;
 	background-color:#7CCCD0;
 }
 .select {
+	border: 1.5px solid #ccc;
 	font-family: Coming Soon;
 	width:100%;
 	font-size: 1em;
@@ -230,6 +243,7 @@ p, ul{
 	background-color: #7CCCD0;
 }
 .selectmonth {
+	border: 1.5px solid #ccc;
 	font-family: Coming Soon;
 	font-size: 1em;
 	color: #330E36;
@@ -237,6 +251,7 @@ p, ul{
 	background-color: #7CCCD0;
 }
 .selectyear {
+	border: 1.5px solid #ccc;
 	font-family: Coming Soon;
 	font-size: 1em;
 	width: 50%;
@@ -251,12 +266,23 @@ option {
 .formback-content {
 	background: rgba(255,255,255,.8);
 	position: relative;
-	background-color: white;
 	padding: 40px;
 }
 @media screen and (max-width: 768px) {
 .formback-content {
+	background: rgba(255,255,255,.8);
 	padding: 25px;
+	}
+.select .selectyear .selectmonth{
+	width: 100%;
+	margin-left: 0px;
+	font-size: .75em;
+	}
+.formtext{
+	font-size: .75em;
+	}
+.forminputs{
+	font-size: .75em;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -265,6 +291,7 @@ option {
 	}
 }
 .submitbutton {
+	border: 1.5px solid #ccc;
 	background-color: #7CCCD0;
 	width: 200px;
 	font-family: rockwell;
@@ -279,8 +306,33 @@ button:hover {
 
 /*thank you page*/
 
-
-
+.thankyoupagetitle{
+	color: white;
+	font-family: rockwell;
+	font-size: 2.75em;
+}
+.backgroundthankyou {
+	background-image: url(../img/thankyoupic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 20px;
+}
+.thankyoupagesubtitle {
+	color: #7CCCD0;
+	font-family: Coming Soon;
+	font-size: 1.3em;
+}
+@media screen and (max-width: 768px) {
+.backgroundthankyou{
+	padding: 15px;
+	height: 800px;
+	}
+.thankyoupagetitle{
+	font-size: 1.5em;
+	}
+}
+@media screen and (max-width: 375px) {
 
 
 
