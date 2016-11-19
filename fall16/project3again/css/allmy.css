@@ -1,0 +1,380 @@
+/*home page*/
+
+#openingheader{
+	height: 110px;
+	padding-top:63px;
+}
+.starbucksoutreach-link {
+	text-decoration: none;
+}
+.starbucksoutreach{
+	color: #7CCCD0;
+	font-family: rockwell;
+	font-weight: lighter;
+	font-size: 4em;
+	line-height: 40pt;
+}
+@media screen and (max-width: 767px) {
+	#openingheader{
+		padding-top:28px;
+	}
+	.starbucksoutreach{
+		font-size: 2.75em;
+		line-height: 34pt;
+	}
+	.starbucksoutreach > span {
+		display: block;
+	}
+}
+.nav-wrapper, .footer-wrapper {
+	background:#7CCCD0;
+	padding: 15px;
+}
+#nav1{
+	color: #7CCCD0;
+	padding:0;
+}
+#nav1 a {
+	font-family: Coming Soon;
+	font-size: 1.3em;
+	color:white;
+	text-decoration: none;
+}
+.navspace{
+	padding-top: 15px;
+}
+#nav1 a:hover{
+	color:#330F36;
+}
+a .homepage:hover{
+	color:#330F36;
+}
+#nav1 img{
+	margin-left: 50px;
+}
+@media screen and (max-width: 767px) {
+	#nav1 a {
+		font-size: 1em;
+	}
+	#nav1 img{
+	margin-left: 0px;
+	}
+	#nav1 a:hover{
+	color:#330F36;
+	}
+}
+.homepagetitle{
+	color: white;
+	font-family: Coming Soon;
+	font-size: 2.75em;
+	text-shadow: 1px 1px 1px #000000;
+}
+.homepagesubtitle{
+	color: #7CCCD0;
+	font-family: rockwell;
+	font-size: 1.6em;
+	text-shadow: 1px 1px 1px #000000;
+}
+.backgroundhomepage{
+	padding-bottom: 66.796875%;
+	background-image: url(../img/familypic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 30px;
+}
+@media screen and (max-width: 767px) {
+	.backgroundhomepage{
+		padding-top: 10px;
+		height:500px;
+	}
+	.homepagetitle{
+		font-size: 1.5em;
+	}
+	.homepagesubtitle{
+		font-size: 1em;
+		font-weight: regular;
+	}
+}
+
+/*our story page*/
+
+
+.orangeheadline{
+	font-family: rockwell;
+	color:#F15B2A;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+.bluedot {
+	list-style: none;
+	position: relative;
+}
+.bluedot:before {
+	content: '•';
+	color:#7CCCD0;
+	position: absolute;
+	left: -25px;
+}
+.million{
+	padding: 10px;
+}
+p, ul{
+	font-family: avenir;
+	color: black;
+	font-size: 1.188em;
+}
+@media screen and (max-width: 767px) {
+	#orangeheadline{
+		font-size: 1.500em;
+	}
+	p{
+		font-size: 1.188em;
+	}
+}
+.infographic{
+	padding-top: 30px;
+	background-size: cover;
+	padding-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+	.infographic {
+		float: right;
+		width: 50%;
+		margin-left: 15px;
+		margin-bottom: 15px;
+	}
+}
+.numbers{
+	background-color: white;
+}
+.numbers {
+	position: relative;
+}
+.manandseeds{
+	padding-bottom: 66.796875%;
+	background-image: url(../img/manandseeds.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+}
+@media screen and (min-width: 768px) {
+	.manandseeds{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+	}
+}
+	.numbers-content {
+		background: rgba(255,255,255,.8);
+		padding: 25px;
+}
+
+/*what is happening to our trees? page*/
+
+
+@media screen and (max-width: 767px) {
+	.rustpics{
+		padding-bottom: 10px;
+	}
+}
+
+
+/* Responsive iframe for all types of media use 'iframe-responsive' */
+/* Responsive youtube video embed 'video-responsive' class is wrapper for youtube iframe */
+.video-responsive {
+	height: 0;
+	padding-bottom: 100%;
+	position: relative;
+}
+/* set the iframe to the same width / height as it's fluid parent container */
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100% !important;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100% !important;
+}
+/* sizing */
+.video-16x9, .video-responsive {
+	padding-bottom: 56.25%; /* 16:9 ratio */
+}
+
+
+
+/*donate now page*/
+
+
+.backgroundform{
+	background-image: url(../img/formpic1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.label{
+	font-family: Coming Soon;
+	color:#330F36;
+	font-size:1em;
+}
+.orangeheadline {
+	font-family: rockwell;
+	font-size: 1.2em;
+	color:#F15B2A;
+}
+.formheadline {
+	font-family: rockwell;
+	font-weight: lighter;
+	font-size: 1.3em;
+	color:#F15B2A;
+}
+.formtext {
+	font-family: Coming Soon;
+	font-size: 1em;
+	color: #330E36;
+}
+.forminputs {
+	border: 1.5px solid #ccc;
+	border-radius: 3px;
+	width: 100%;
+	font-family: Coming Soon;
+	border-radius: 1;
+	font-size: 1em;
+	color: #330E36;
+	background-color:#7CCCD0;
+}
+.select {
+	border: 1.5px solid #ccc;
+	font-family: Coming Soon;
+	width:100%;
+	font-size: 1em;
+	color: #330E36;
+	background-color: #7CCCD0;
+}
+.selectmonth {
+	border: 1.5px solid #ccc;
+	font-family: Coming Soon;
+	font-size: 1em;
+	color: #330E36;
+	width: 45%;
+	background-color: #7CCCD0;
+}
+.selectyear {
+	border: 1.5px solid #ccc;
+	font-family: Coming Soon;
+	font-size: 1em;
+	width: 50%;
+	color: #330E36;
+	margin-left: 10px;
+	background-color: #7CCCD0;
+}
+option {
+	font-family: rockwell;
+	color:#330F36;
+}
+.formback-content {
+	background: rgba(255,255,255,.8);
+	position: relative;
+	padding: 40px;
+}
+@media screen and (max-width: 768px) {
+.formback-content {
+	background: rgba(255,255,255,.8);
+	padding: 25px;
+	}
+.selectyear{
+	width:100%;
+	margin-left: 0px;
+	margin-top: 15px;
+	}
+.selectmonth{
+	width:100%;
+	}
+}
+@media screen and (max-width: 768px){
+.orangeheadline {
+	font-size: 1em;
+	}
+}
+.submitbutton {
+	border: 1.5px solid #ccc;
+	background-color: #7CCCD0;
+	width: 200px;
+	font-family: rockwell;
+	font-size: 1.2em;
+	color:#F15B2A;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+button:hover {
+	color:#330F36;
+}
+
+/*thank you page*/
+
+
+.thankyoupagetitle {
+	color: white;
+	font-family: Coming Soon;
+	font-size: 2.75em;
+	text-shadow: 1px 1px 1px #000000;
+}
+.thankyoupagesubtitle {
+	color: #7CCCD0;
+	font-family: rockwell;
+	font-size:1.75em;
+	text-shadow: 1px 1px 1px #000000;
+	line-height: 1em;
+}
+.backgroundthankyou {
+	padding-bottom: 66.796875%;
+	background-image: url(../img/thankyoupic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+.backgroundthankyou{
+	padding: 15px;
+	height: 950px;
+	}
+.thankyoupagetitle{
+	font-size: 2em;
+	}
+.thankyoupagesubtitle {
+	font-size: 1.5em;
+	}
+}
+@media screen and (max-width: 375px) {
+	.thankyoupagetitle{
+	font-size: 1.2em;
+	}
+	.thankyoupagesubtitle {
+	font-size: 1.1em;
+	color: #7CCCD0;
+	font-family: rockwell;
+	}
+}	
+
+
+
+/*footer*/
+
+.socialmedia{
+	background-size: 50%;
+	padding-bottom: 15px;
+}
+.footer2{
+	color: #7CCCD0;
+	font-family:'Coming Soon';
+	font-size: 1em;
+	color:#330F36;
+}
+@media screen and (max-width: 768px){
+	.footer2{
+		font-size:.813em;
+	}
+}
+
