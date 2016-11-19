@@ -27,7 +27,8 @@
 	}
 }
 .nav-wrapper, .footer-wrapper {
-	background:#7CCCD0
+	background:#7CCCD0;
+	padding: 15px;
 }
 #nav1{
 	color: #7CCCD0;
@@ -40,9 +41,12 @@
 	text-decoration: none;
 }
 .navspace{
-	padding-top: 40px;
+	padding-top: 15px;
 }
 #nav1 a:hover{
+	color:#330F36;
+}
+a .homepage:hover{
 	color:#330F36;
 }
 #nav1 img{
@@ -54,18 +58,22 @@
 	}
 	#nav1 img{
 	margin-left: 0px;
-	padding-bottom: 10px;
+	}
+	#nav1 a:hover{
+	color:#330F36;
 	}
 }
 .homepagetitle{
 	color: white;
 	font-family: Coming Soon;
 	font-size: 2.75em;
+	text-shadow: 1px 1px 1px #000000;
 }
 .homepagesubtitle{
 	color: #7CCCD0;
 	font-family: rockwell;
 	font-size: 1.6em;
+	text-shadow: 1px 1px 1px #000000;
 }
 .backgroundhomepage{
 	padding-bottom: 66.796875%;
@@ -78,6 +86,7 @@
 @media screen and (max-width: 767px) {
 	.backgroundhomepage{
 		padding-top: 10px;
+		height:500px;
 	}
 	.homepagetitle{
 		font-size: 1.5em;
@@ -273,19 +282,16 @@ option {
 	background: rgba(255,255,255,.8);
 	padding: 25px;
 	}
-.select .selectyear .selectmonth{
-	width: 100%;
+.selectyear{
+	width:100%;
 	margin-left: 0px;
-	font-size: .75em;
+	margin-top: 15px;
 	}
-.formtext{
-	font-size: .75em;
-	}
-.forminputs{
-	font-size: .75em;
+.selectmonth{
+	width:100%;
 	}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
 .orangeheadline {
 	font-size: 1em;
 	}
@@ -306,53 +312,68 @@ button:hover {
 
 /*thank you page*/
 
-.thankyoupagetitle{
+
+.thankyoupagetitle {
 	color: white;
-	font-family: rockwell;
+	font-family: Coming Soon;
 	font-size: 2.75em;
+	text-shadow: 1px 1px 1px #000000;
+}
+.thankyoupagesubtitle {
+	color: #7CCCD0;
+	font-family: rockwell;
+	font-size:1.75em;
+	text-shadow: 1px 1px 1px #000000;
+	line-height: 1em;
 }
 .backgroundthankyou {
+	padding-bottom: 66.796875%;
 	background-image: url(../img/thankyoupic.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	padding-top: 20px;
+	padding-top: 30px;
 }
-.thankyoupagesubtitle {
-	color: #7CCCD0;
-	font-family: Coming Soon;
-	font-size: 1.3em;
-}
+
 @media screen and (max-width: 768px) {
 .backgroundthankyou{
 	padding: 15px;
-	height: 800px;
+	height: 950px;
 	}
 .thankyoupagetitle{
+	font-size: 2em;
+	}
+.thankyoupagesubtitle {
 	font-size: 1.5em;
 	}
 }
 @media screen and (max-width: 375px) {
-
+	.thankyoupagetitle{
+	font-size: 1.2em;
+	}
+	.thankyoupagesubtitle {
+	font-size: 1.1em;
+	color: #7CCCD0;
+	font-family: rockwell;
+}
 
 
 
 /*footer*/
 .footer-wrapper{
-	padding-top: 25px;
+	background-color: #7CCCD0;
 }
 .socialmedia{
 	background-size: 50%;
+	padding-bottom: 15px;
 }
-.footer2 {
+.footer2{
 	color: #7CCCD0;
-	padding-top: 10px;
-	padding-bottom:25px;
-	font-family: 'Coming Soon';
+	font-family:'Coming Soon';
 	font-size: 1em;
 	color:#330F36;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px){
 	.footer2{
 		font-size:.813em;
 	}
