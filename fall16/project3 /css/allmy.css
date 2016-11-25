@@ -75,18 +75,13 @@ a .homepage:hover{
 	font-size: 1.6em;
 	text-shadow: 1px 1px 1px #000000;
 }
-.backgroundhomepage{
-	padding-bottom: 66.796875%;
+.homepagepic{
 	background-image: url(../img/familypic.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
 	padding-top: 30px;
 }
 @media screen and (max-width: 767px) {
-	.backgroundhomepage{
+	.homepagepic{
 		padding-top: 10px;
-		height:500px;
 	}
 	.homepagetitle{
 		font-size: 1.5em;
@@ -272,15 +267,26 @@ option {
 	font-family: rockwell;
 	color:#330F36;
 }
-.formback-content {
+.formback-content1 {
 	background: rgba(255,255,255,.8);
 	position: relative;
 	padding: 40px;
 }
+.formback-content2 {
+	background: rgba(255,255,255,.8);
+	position: relative;
+	padding: 40px;
+	padding-bottom: 40px;
+}
 @media screen and (max-width: 768px) {
-.formback-content {
+.formback-content1 {
 	background: rgba(255,255,255,.8);
 	padding: 25px;
+	}
+.formback-content2 {
+	background: rgba(255,255,255,.8);
+	padding: 25px;
+	padding-bottom: 40px;
 	}
 .selectyear{
 	width:100%;
@@ -357,8 +363,24 @@ button:hover {
 	font-family: rockwell;
 	}
 }	
+/*backtotop*/
 
-
+.backtotop {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.purplelink {
+	color:#330F36;
+	font-family: Coming Soon;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+.bluelink {
+	color:#7CCCD0;
+	font-family: rockwell;
+	text-shadow: 1px 1px 1px #000000;
+	line-height: 1em;
+}
 
 /*footer*/
 
