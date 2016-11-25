@@ -49,12 +49,17 @@
         </div><!-- nav-wrapper -->
 
         <div class="backgroundform">
-            <div class="container">
+            <div class="container formback-content">
                 <div class="row">
-                    <div class="col-xs-10 push-xs-1 col-sm-10  push-sm-1 col-md-5 push-md-1 col-lg-5 push-lg-1 text-xs-left formback-content1">
+                    <div class="col-xs-10 push-xs-1 col-sm-10  push-sm-1 col-md-10 push-md-1 col-lg-10 push-lg-1 text-xs-left">
                         <p><h2><span class="orangeheadline">Submit your information below to help plant rust resistant trees today!</span></h2>
                             </p>
-                            <form action="thankyou.html" method="get">
+                    </div>
+                </div>
+                <div>
+                    <form action="thankyou.html" method="get">
+                        <div class="row">
+                            <div class="col-xs-10 push-xs-1 col-sm-10  push-sm-1 col-md-5 push-md-1 col-lg-5 push-lg-1 text-xs-left">       
                                 <p class="formheadline">PERSONAL INFO</p>
 
                                 <fieldset class="topform">
@@ -149,13 +154,13 @@
                                     </p>
                                 </fieldset>
                         
-                    </div>
-                    <div class="col-xs-10 push-xs-1 col-sm-10  push-sm-1 col-md-5 push-md-1 col-lg-5 push-lg-1 text-xs-left formback-content2">
+                            </div>
+                            <div class="col-xs-10 push-xs-1 col-sm-10  push-sm-1 col-md-5 push-md-1 col-lg-5 push-lg-1 text-xs-left">
                         
-                            <p class="formheadline">BILLING INFO</p>
+                                        <p class="formheadline">BILLING INFO
                                         <input type="checkbox" name="sameasabove" class="sameasabove"/>
-                                        <label for="sameasabove"><span class="orangeheadline">Same as above.</span></label>
-                                        <br>
+                                        <label for="sameasabove"><span class="orangesubheadline">Same as Personal</span></label>
+                                        </p>
                                 <fieldset class="bottomform">
                                     
                                     <p>
@@ -180,8 +185,8 @@
                                     </p>
                                     <p>
                                         <label for="state">
-                                        <span class="formtext">State</span></label><br>
-                                        <select name="state" class="select">
+                                        <span class="formtext">State / Zip</span></label><br>
+                                        <select name="state" class="select billingstate">
                                             <option value="Select One">Select One</option>
                                             <option value="AL">Alabama</option>
                                             <option value="AK">Alaska</option>
@@ -235,21 +240,13 @@
                                             <option value="WI">Wisconsin</option>
                                             <option value="WY">Wyoming</option>
                                         </select>
-                                    </p>
-                                    <p>
-                                        <label for="zip">
-                                        <span class="formtext">Zip</span></label><br>
-                                        <input type="text" name="zip" class="forminputs"/>
+                                        <input type="text" name="zip" class="forminputs billingzip"/>
                                     </p>
                                     <p>
                                         <label for="card">
-                                        <span class="formtext">Card Number</span></label><br>
-                                        <input type="text" name="card" class="forminputs"/>
-                                    </p>
-                                    <p>
-                                        <label for="security">
-                                        <span class="formtext">Security Code</span></label><br>
-                                        <input type="text" name="security" class="forminputs"/>
+                                        <span class="formtext">Card Number / Security Code</span></label><br>
+                                        <input type="text" value="0000 0000 0000 0000" name="card" class="forminputs cardnumber"/>
+                                        <input type="text" value="000" name="security" class="forminputs securitycode"/>
                                     </p>
                                     <p>
                                         <label for="expiration">
@@ -281,9 +278,14 @@
                                         </select>
                                     </p>
                                 </fieldset>
-                            <button type="submitbutton" class="submitbutton" href="thankyou.html">SUBMIT</button>
-                        </form>
-                    </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-10 push-xs-1 col-sm-10  push-sm-1 col-md-4 push-md-4 col-lg-4 push-lg-4 text-xs-center">
+                                <button type="submitbutton" class="submitbutton" href="thankyou.html">SUBMIT</button>
+                            </div>
+                        </div>
+                    </form>    
                 </div>
             </div>
         </div>

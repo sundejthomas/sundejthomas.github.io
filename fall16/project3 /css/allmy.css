@@ -1,5 +1,11 @@
 /*home page*/
-
+.homebackground{
+	background-color:#330F36; 
+	padding-top: 30px;
+}
+.links{
+	padding-bottom:30px;
+}
 #openingheader{
 	height: 110px;
 	padding-top:63px;
@@ -26,7 +32,7 @@
 		display: block;
 	}
 }
-.nav-wrapper, .footer-wrapper {
+.nav-wrapper {
 	background:#7CCCD0;
 	padding: 15px;
 }
@@ -66,20 +72,18 @@ a .homepage:hover{
 .homepagetitle{
 	color: white;
 	font-family: Coming Soon;
-	font-size: 2.75em;
+	font-size: 2.3em;
 	text-shadow: 1px 1px 1px #000000;
+	padding-top: 30px;
 }
 .homepagesubtitle{
 	color: #7CCCD0;
 	font-family: rockwell;
-	font-size: 1.6em;
+	font-size: 1.2em;
 	text-shadow: 1px 1px 1px #000000;
 }
-.homepagepic{
-	background-image: url(../img/familypic.jpg);
-	padding-top: 30px;
-}
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 768px) {
 	.homepagepic{
 		padding-top: 10px;
 	}
@@ -89,6 +93,25 @@ a .homepage:hover{
 	.homepagesubtitle{
 		font-size: 1em;
 		font-weight: regular;
+	}
+}
+.whitelinktext{
+	color:white;
+	font-family: Coming Soon;
+	font-size: 1em;
+}
+.boldlinktext {
+	color:white;
+	font-family: rockwell;
+	font-size: 1em;
+}
+a .boldlinktext:hover{
+	color:#7CCCD0;
+}
+
+@media screen and (max-width: 767px) {
+	.whitelinktext{
+	font-size: .85em;
 	}
 }
 
@@ -207,6 +230,18 @@ p, ul{
 	background-size: cover;
 	background-position: center center;
 }
+.formback-content {
+	background: rgba(255,255,255,.8);
+	position: relative;
+	display:block;
+	}
+}
+@media screen and (max-width: 768px) {
+.formback-content {
+	background: rgba(255,255,255,.8);
+	padding: 35px;
+	}
+}
 .label{
 	font-family: Coming Soon;
 	color:#330F36;
@@ -215,6 +250,11 @@ p, ul{
 .orangeheadline {
 	font-family: rockwell;
 	font-size: 1.2em;
+	color:#F15B2A;
+}
+.orangesubheadline {
+	font-family: coming soon;
+	font-size: .75em;
 	color:#F15B2A;
 }
 .formheadline {
@@ -246,6 +286,41 @@ p, ul{
 	color: #330E36;
 	background-color: #7CCCD0;
 }
+
+.cardnumber {
+	border: 1.5px solid #ccc;
+	font-family: Coming Soon;
+	font-size: 1em;
+	color: #330E36;
+	width: 65%;
+	background-color: #7CCCD0;
+}
+.securitycode{
+	border: 1.5px solid #ccc;
+	font-family: Coming Soon;
+	font-size: 1em;
+	width: 30%;
+	color: #330E36;
+	margin-left: 10px;
+	background-color: #7CCCD0;
+}
+.billingstate {
+	border: 1.5px solid #ccc;
+	font-family: Coming Soon;
+	font-size: 1em;
+	color: #330E36;
+	width: 45%;
+	background-color: #7CCCD0;
+}
+.billingzip{
+	border: 1.5px solid #ccc;
+	font-family: Coming Soon;
+	font-size: 1em;
+	width: 50%;
+	color: #330E36;
+	margin-left: 10px;
+	background-color: #7CCCD0;
+}
 .selectmonth {
 	border: 1.5px solid #ccc;
 	font-family: Coming Soon;
@@ -267,27 +342,8 @@ option {
 	font-family: rockwell;
 	color:#330F36;
 }
-.formback-content1 {
-	background: rgba(255,255,255,.8);
-	position: relative;
-	padding: 40px;
-}
-.formback-content2 {
-	background: rgba(255,255,255,.8);
-	position: relative;
-	padding: 40px;
-	padding-bottom: 40px;
-}
+
 @media screen and (max-width: 768px) {
-.formback-content1 {
-	background: rgba(255,255,255,.8);
-	padding: 25px;
-	}
-.formback-content2 {
-	background: rgba(255,255,255,.8);
-	padding: 25px;
-	padding-bottom: 40px;
-	}
 .selectyear{
 	width:100%;
 	margin-left: 0px;
@@ -296,21 +352,41 @@ option {
 .selectmonth{
 	width:100%;
 	}
+.billingstate{
+	width:100%;
+	margin-left: 0px;
+	margin-top: 15px;
+	}
+.billingzip{
+	width:100%;
+	}
+.cardnumber{
+	width:100%;
+	margin-left: 0px;
+	margin-top: 15px;
+	}
+.securitycode{
+	width:100%;
+	}
 }
 @media screen and (max-width: 768px){
 .orangeheadline {
 	font-size: 1em;
 	}
+.orangeheadline {
+	font-size: .50em;
+	}
 }
 .submitbutton {
 	border: 1.5px solid #ccc;
 	background-color: #7CCCD0;
-	width: 200px;
+	width: 300px;
 	font-family: rockwell;
 	font-size: 1.2em;
 	color:#F15B2A;
 	margin-top: 20px;
 	margin-bottom: 40px;
+
 }
 button:hover {
 	color:#330F36;
@@ -383,7 +459,11 @@ button:hover {
 }
 
 /*footer*/
-
+.footer-wrapper {
+	background:#7CCCD0;
+	padding: 15px;
+	
+}
 .socialmedia{
 	background-size: 50%;
 	padding-bottom: 15px;
