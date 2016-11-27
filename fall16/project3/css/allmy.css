@@ -82,9 +82,13 @@ a .homepage:hover{
 .homepagesubtitle{
 	color: #7CCCD0;
 	font-family: rockwell;
-	font-size: 1.2em;
+	font-size: 1.3em;
+	line-height: 1.6em;
 }
+.openingpara{
+	line-height: 2em;
 
+}
 @media screen and (max-width: 768px) {
 	.homepagepic{
 		padding-top: 10px;
@@ -96,6 +100,10 @@ a .homepage:hover{
 		font-size: 1em;
 		font-weight: regular;
 	}
+	.openingpara{
+	line-height: 1.5em;
+
+}
 }
 .linkrow {
 	margin-top: 25px;
