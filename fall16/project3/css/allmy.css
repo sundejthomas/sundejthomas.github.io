@@ -1,10 +1,12 @@
 /*home page*/
-.homebackground{
-	background-color:#330F36; 
+.homebackground{ 
 	padding-top: 30px;
 }
 .links{
 	padding-bottom:30px;
+}
+a{
+	text-decoration: none;
 }
 #openingheader{
 	height: 110px;
@@ -35,6 +37,7 @@
 .nav-wrapper {
 	background:#7CCCD0;
 	padding: 15px;
+	position: relative;
 }
 #nav1{
 	color: #7CCCD0;
@@ -50,10 +53,10 @@
 	padding-top: 15px;
 }
 #nav1 a:hover{
-	color:#330F36;
+	color:#4855A3;
 }
 a .homepage:hover{
-	color:#330F36;
+	color:#4855A3;
 }
 #nav1 img{
 	margin-left: 50px;
@@ -66,21 +69,20 @@ a .homepage:hover{
 	margin-left: 0px;
 	}
 	#nav1 a:hover{
-	color:#330F36;
+	color:#4855A3;
 	}
 }
 .homepagetitle{
-	color: white;
+	color:#F15B2A;
 	font-family: Coming Soon;
 	font-size: 2.3em;
-	text-shadow: 1px 1px 1px #000000;
 	padding-top: 30px;
+	font-weight: bold;
 }
 .homepagesubtitle{
 	color: #7CCCD0;
 	font-family: rockwell;
 	font-size: 1.2em;
-	text-shadow: 1px 1px 1px #000000;
 }
 
 @media screen and (max-width: 768px) {
@@ -95,13 +97,26 @@ a .homepage:hover{
 		font-weight: regular;
 	}
 }
+.linkrow {
+	margin-top: 25px;
+}
+.imglink {
+	display:block;
+}
+@media screen and (min-width: 900px) {
+.movelink{
+	margin-left: 45px;
+	}
+}
 .whitelinktext{
-	color:white;
-	font-family: Coming Soon;
+	color:#4855A3;
+	font-family: coming soon;
 	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
 }
 .boldlinktext {
-	color:white;
+	color:#4855A3;
 	font-family: rockwell;
 	font-size: 1em;
 }
@@ -109,9 +124,13 @@ a .boldlinktext:hover{
 	color:#7CCCD0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 755px) {
 	.whitelinktext{
-	font-size: .85em;
+	font-size: .95em;
+	}
+	.imglink{
+	width: 50%;
+	margin-left: 75px;
 	}
 }
 
@@ -275,7 +294,7 @@ p, ul{
 	font-family: Coming Soon;
 	border-radius: 1;
 	font-size: 1em;
-	color: #330E36;
+	color: #4855A3;
 	background-color:#7CCCD0;
 }
 .select {
@@ -283,7 +302,7 @@ p, ul{
 	font-family: Coming Soon;
 	width:100%;
 	font-size: 1em;
-	color: #330E36;
+	color: #4855A3;
 	background-color: #7CCCD0;
 }
 
@@ -291,7 +310,7 @@ p, ul{
 	border: 1.5px solid #ccc;
 	font-family: Coming Soon;
 	font-size: 1em;
-	color: #330E36;
+	color:#4855A3;
 	width: 65%;
 	background-color: #7CCCD0;
 }
@@ -300,7 +319,7 @@ p, ul{
 	font-family: Coming Soon;
 	font-size: 1em;
 	width: 30%;
-	color: #330E36;
+	color: #4855A3;
 	margin-left: 10px;
 	background-color: #7CCCD0;
 }
@@ -308,7 +327,7 @@ p, ul{
 	border: 1.5px solid #ccc;
 	font-family: Coming Soon;
 	font-size: 1em;
-	color: #330E36;
+	color: #4855A3;
 	width: 45%;
 	background-color: #7CCCD0;
 }
@@ -317,7 +336,7 @@ p, ul{
 	font-family: Coming Soon;
 	font-size: 1em;
 	width: 50%;
-	color: #330E36;
+	color: #4855A3;
 	margin-left: 10px;
 	background-color: #7CCCD0;
 }
@@ -325,7 +344,7 @@ p, ul{
 	border: 1.5px solid #ccc;
 	font-family: Coming Soon;
 	font-size: 1em;
-	color: #330E36;
+	color: #4855A3;
 	width: 45%;
 	background-color: #7CCCD0;
 }
@@ -334,13 +353,24 @@ p, ul{
 	font-family: Coming Soon;
 	font-size: 1em;
 	width: 50%;
-	color: #330E36;
+	color: #4855A3;
 	margin-left: 10px;
 	background-color: #7CCCD0;
 }
 option {
 	font-family: rockwell;
 	color:#330F36;
+}
+@media screen and (max-width: 804px)(min-width: 767px) {
+
+	.billingzip{
+
+		margin-left: 0px;
+	}
+	.securitycode{
+
+		margin-left: 0px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -354,33 +384,31 @@ option {
 	}
 .billingstate{
 	width:100%;
-	margin-left: 0px;
-	margin-top: 15px;
 	}
 .billingzip{
 	width:100%;
-	}
-.cardnumber{
-	width:100%;
 	margin-left: 0px;
 	margin-top: 15px;
 	}
+.cardnumber{
+	width:100%;
+	}
 .securitycode{
 	width:100%;
+	margin-left: 0px;
+	margin-top: 15px;
 	}
 }
 @media screen and (max-width: 768px){
 .orangeheadline {
 	font-size: 1em;
 	}
-.orangeheadline {
-	font-size: .50em;
-	}
 }
 .submitbutton {
 	border: 1.5px solid #ccc;
 	background-color: #7CCCD0;
-	width: 300px;
+	width: 280px;
+	border-radius: 3.5px;
 	font-family: rockwell;
 	font-size: 1.2em;
 	color:#F15B2A;
@@ -446,7 +474,7 @@ button:hover {
 	margin-bottom: 20px;
 }
 .purplelink {
-	color:#330F36;
+	color:#4855A3;
 	font-family: Coming Soon;
 	font-size: 1.3em;
 	text-decoration: none;
@@ -465,14 +493,14 @@ button:hover {
 	
 }
 .socialmedia{
-	background-size: 50%;
+	width: 145px;
 	padding-bottom: 15px;
 }
 .footer2{
 	color: #7CCCD0;
 	font-family:'Coming Soon';
 	font-size: 1em;
-	color:#330F36;
+	color:#4855A3;
 }
 @media screen and (max-width: 768px){
 	.footer2{
