@@ -369,19 +369,27 @@ option {
 	font-family: rockwell;
 	color:#330F36;
 }
-@media screen and (max-width: 804px)(min-width: 767px) {
-
-	.billingzip{
-
-		margin-left: 0px;
+@media screen and (max-width: 805px) {
+.selectyear{
+	width:48%;
 	}
-	.securitycode{
-
-		margin-left: 0px;
+.selectmonth{
+	width:46%;
+	}
+.billingstate{
+	width:48%;
+	}
+.billingzip{
+	width:46%;
+	}
+.cardnumber{
+	width:48%;
+	}
+.securitycode{
+	width:46%;
 	}
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
 .selectyear{
 	width:100%;
 	margin-left: 0px;
@@ -430,49 +438,85 @@ button:hover {
 
 /*thank you page*/
 
-
+.thanksbox{
+	width:45%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #7CCCD0;
+	border-radius: 5px;
+	margin-left: 15px;
+	padding: 15px; 
+}
 .thankyoupagetitle {
-	color: white;
+	color:#F15B2A;
 	font-family: Coming Soon;
-	font-size: 2.75em;
-	text-shadow: 1px 1px 1px #000000;
+	font-size: 2em;
 }
 .thankyoupagesubtitle {
-	color: #7CCCD0;
+	color: white;
 	font-family: rockwell;
-	font-size:1.75em;
-	text-shadow: 1px 1px 1px #000000;
+	font-size:1.25em;
 	line-height: 1em;
 }
-.backgroundthankyou {
-	padding-bottom: 66.796875%;
-	background-image: url(../img/thankyoupic.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	padding-top: 30px;
+.thankyoupic{
+	margin-top:50px;
+	margin-bottom: 50px;
 }
-
+.orangethank{
+	margin-top: 10px;
+	font-family: rockwell;
+	font-size: 1.2em;
+	color:#F15B2A;
+}
+.socialmedia2{
+	width: 145px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
 @media screen and (max-width: 768px) {
-.backgroundthankyou{
-	padding: 15px;
-	height: 950px;
-	}
 .thankyoupagetitle{
-	font-size: 2em;
+	font-size: 1.85em;
 	}
 .thankyoupagesubtitle {
-	font-size: 1.5em;
+	font-size: 1.12em;
+	}
+
+.orangethank{
+	margin-top: 12px;
+	font-size: 1.12em;
+	}
+.socialmedia2{
+	padding-bottom: 10px;
+	padding-top: 12px;
+	}
+.bluelink {
+	font-size: 1.12em;
 	}
 }
 @media screen and (max-width: 375px) {
-	.thankyoupagetitle{
-	font-size: 1.2em;
+.thanksbox{
+	width:92%;
+	margin-top: 10px;
+}
+.thankyoupic{
+	margin-bottom: 10px;
+}
+.thankyoupagetitle{
+	font-size: 1.5em;
 	}
-	.thankyoupagesubtitle {
-	font-size: 1.1em;
-	color: #7CCCD0;
-	font-family: rockwell;
+.thankyoupagesubtitle {
+	font-size: 1em;
+	}
+.orangethank{
+	margin-top: 12px;
+	font-size: 1.12em;
+	}
+.socialmedia2{
+	padding-bottom: 10px;
+	padding-top: 12px;
+	}
+.bluelink {
+	font-size: 1.12em;
 	}
 }	
 /*backtotop*/
@@ -488,17 +532,19 @@ button:hover {
 	text-decoration: none;
 }
 .bluelink {
-	color:#7CCCD0;
+	color:#4855A3;
 	font-family: rockwell;
-	text-shadow: 1px 1px 1px #000000;
-	line-height: 1em;
+	font-weight: lighter;
+	line-height: .85em;
+}
+.bluelink:hover{
+	color:#F15B2A;
 }
 
 /*footer*/
 .footer-wrapper {
 	background:#7CCCD0;
-	padding: 15px;
-	
+	padding: 15px;	
 }
 .socialmedia{
 	width: 145px;
