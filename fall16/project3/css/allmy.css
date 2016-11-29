@@ -1,7 +1,5 @@
 /*home page*/
-.homebackground{ 
-	padding-top: 30px;
-}
+
 .links{
 	padding-bottom:30px;
 }
@@ -75,21 +73,49 @@ a .homepage:hover{
 .homepagetitle{
 	color:#F15B2A;
 	font-family: Coming Soon;
-	font-size: 2.3em;
+	font-size: 1.75em;
 	padding-top: 30px;
 	font-weight: bold;
+	text-shadow: .25px .25px .25px #000000;
+}
+.no-wrap {
+	white-space: nowrap;
 }
 .homepagesubtitle{
-	color: #7CCCD0;
+	color: #5FB2B2;
 	font-family: rockwell;
-	font-size: 1.3em;
+	font-size: 1.25em;
 	line-height: 1.6em;
+	text-shadow: .25px .25px .25px #4855A3;
+}
+.backgroundhomepage{
+	background-image: url(../img/thankyoupic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.homebackcontent{
+	background: rgba(255,255,255,.8);
+	position: relative;
+	display:block;
+	padding-top: 50px;
+	padding-left: 10px;
 }
 .openingpara{
 	line-height: 2em;
-
+}
+@media screen and (min-width: 768px) {
+	.homebackcontent{
+		width:40%;
+		margin-right: 750px;
+		padding-left: 10px;
+	}
 }
 @media screen and (max-width: 768px) {
+	.homebackcontent{
+		width:44%;
+		margin-left: 25px;
+	}
 	.homepagepic{
 		padding-top: 10px;
 	}
@@ -102,8 +128,14 @@ a .homepage:hover{
 	}
 	.openingpara{
 	line-height: 1.5em;
-
+	}
 }
+@media screen and (max-width: 375px) {
+	.homebackcontent{
+		background: rgba(255,255,255,.9);
+		width:95%;
+		margin-left: 10px;
+	}
 }
 .linkrow {
 	margin-top: 25px;
@@ -119,14 +151,14 @@ a .homepage:hover{
 .whitelinktext{
 	color:#4855A3;
 	font-family: coming soon;
-	font-size: 1em;
+	font-size: 1.25em;
 	font-weight: bold;
 	text-decoration: none;
 }
 .boldlinktext {
 	color:#4855A3;
 	font-family: rockwell;
-	font-size: 1em;
+	font-size: 1.125em;
 }
 a .boldlinktext:hover{
 	color:#7CCCD0;
@@ -437,14 +469,22 @@ button:hover {
 }
 
 /*thank you page*/
+.backgroundthankyou {
+	padding-bottom: 66.796875%;
+	background-image: url(../img/familypic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 15px;
+}
 
 .thanksbox{
 	width:45%;
-	margin-top: 50px;
+	margin-top: 15px;
 	margin-bottom: 50px;
 	background-color: #7CCCD0;
 	border-radius: 5px;
-	margin-left: 15px;
+	margin-left: 35px;
 	padding: 15px; 
 }
 .thankyoupagetitle {
@@ -474,13 +514,20 @@ button:hover {
 	padding-top: 15px;
 }
 @media screen and (max-width: 768px) {
+.backgroundthankyou{
+	padding: 15px;
+	height: 950px;
+	}
 .thankyoupagetitle{
 	font-size: 1.85em;
 	}
 .thankyoupagesubtitle {
 	font-size: 1.12em;
 	}
-
+.thanksbox{
+	width:92%;
+	margin-top: 10px;
+	}
 .orangethank{
 	margin-top: 12px;
 	font-size: 1.12em;
